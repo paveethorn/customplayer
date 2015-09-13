@@ -1,0 +1,153 @@
+[
+	{
+		"Id": 999,
+		"Channel": {
+			"name": "Showtime",
+			"logo": "pkg:/images/icon/showtime.png",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod veniam, quis nostrud tempor.",
+			"IsFavorite": true
+		},
+		"Title":"Sherlock Episode 1",
+		"IsNew":true,		
+		"SerieTitle": "Sherlock",
+		"SeasonNumber":  5,
+		"episodeNumber":12,
+		"Rating": {
+			"Name": "age 14+",
+			"tomato" : 84,
+			"flixster" : 94
+		},
+		"description" : "Sherlock description",
+		"time" : {
+			"start" : "11:00 AM",
+			"finish" : "11:30 AM"
+		},
+		"country" : "001KUSA", 
+		"streamformat": "hls",
+		"streams" : [
+			{
+				"bitrate" : 0,
+				"quality": true,
+				"url" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
+			},
+			{
+				"bitrate" : 0,
+				"quality": true,
+				"url" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
+			}			
+		]
+	},
+	{
+		"Id": 1000,
+		"Channel": {
+			"name": "TNT",
+			"logo": "pkg:/images/icon/tnt.png",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod veniam, quis nostrud tempor.",
+			"IsFavorite": false
+		},
+		"Title":"Burden of Proof",
+		"IsNew":true,		
+		"SerieTitle": "Mad Men",
+		"SeasonNumber":  5,
+		"episodeNumber":12,
+		"Rating": {
+			"Name": "age 18+",
+			"tomato" : 84,
+			"flixster" : 94
+		},
+		"description" : "A notable county prosecutor is arrested for murder, and as the case against him grows increasingly...",
+		"time" : {
+			"start" : "11:00 AM",
+			"finish" : "1:00 PM"
+		},
+		"country" : "001KUSA", 
+		"streamformat": "hls",
+		"streams" : [
+			{
+				"bitrate" : 0,
+				"quality": true,
+				"url" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
+			},
+			{
+				"bitrate" : 0,
+				"quality": true,
+				"url" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
+			}			
+		]
+	},
+	{
+		"Id": 1002,
+		"Channel": {
+			"name": "FOX",
+			"logo": "pkg:/images/icon/Fox.png",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod veniam, quis nostrud tempor.",
+			"IsFavorite": true
+		},
+		"Title":"The Simpsons Episode 1",
+		"IsNew":false,		
+		"SerieTitle": "The Simpsons",
+		"SeasonNumber":  5,
+		"episodeNumber":12,
+		"Rating": {
+			"Name": "age 14+",
+			"tomato" : 62,
+			"flixster" : 82
+		},
+		"description" : "The Simpsons description",
+		"time" : {
+			"start" : "10:30 AM",
+			"finish" : "11:30 AM"
+		},
+		"country" : "001KUSA", 
+		"streamformat": "hls",
+		"streams" : [
+			{
+				"bitrate" : 0,
+				"quality": true,
+				"url" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
+			},
+			{
+				"bitrate" : 0,
+				"quality": true,
+				"url" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
+			}			
+		]
+	},
+	{
+		"Id": 1003,
+		"Channel": {
+			"name": "NBC",
+			"logo": "pkg:/images/icon/nbc.png",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod veniam, quis nostrud tempor."
+		},
+		"Title":"Modern Family Episode 1",
+		"IsNew":false,		
+		"SerieTitle": "Modern Family",
+		"SeasonNumber":  3,
+		"episodeNumber":1,
+		"Rating": {
+			"Name": "age 14+",
+			"tomato" : 75,
+			"flixster" : 60
+		},
+		"description" : "Modern Family description",
+		"time" : {
+			"start" : "11:00 AM",
+			"finish" : "12:00 PM"
+		},
+		"country" : "001KUSA", 
+		"streamformat": "hls",
+		"streams" : [
+			{
+				"bitrate" : 0,
+				"quality": true,
+				"url" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
+			},
+			{
+				"bitrate" : 0,
+				"quality": true,
+				"url" : "http://qthttp.apple.com.edgesuite.net/1010qwoeiuryfg/sl.m3u8"
+			}			
+		]
+	}
+]
