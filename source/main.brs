@@ -167,7 +167,20 @@ sub main()
             else if (type(msg) = "roUniversalControlEvent")
                 c = msg.GetInt()
                 if (c< 100)
-                    if (isShowGuide)
+                    if (not isShowGuide) and (c = codes.button_instant_replay_pressed)
+                        player.stop()
+                        player.Play()                
+                    else if (c = codes.button_play_pressed)
+                        if playerStatus = "pause"
+                            player.resume()
+                        else if playerStatus = "stop"
+                            player.start()
+                        else if playerStatus = "start"
+                            player.pause()
+                        end if
+                        
+                                   
+                    else if (isShowGuide)
                         if (c= codes.button_back_pressed)
                             isShowGuide = false
                         else if (c = codes.button_left_pressed)
